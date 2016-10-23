@@ -2,6 +2,13 @@
 
 Dark colorscheme for vim/neovim
 
+To install:
+	$ cp Antares/colors/antares.vim $HOME/.vim/colors
+
+In .vimrc:
+	colorscheme antares
+
+
 #### Some screenshots (vim, zsh, haskell)
 
 ![](/screenshots/1-vim.png?raw=true)
