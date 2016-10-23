@@ -285,7 +285,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     call <SID>X("SignColumn", "", s:background, "none")
   end
   if version >= 703
-    call <SID>X("ColorColumn", "", s:line, "none")
+    call <SID>X("ColorColumn", s:red, s:line, "none")
   end
 
   " Standard Highlighting
