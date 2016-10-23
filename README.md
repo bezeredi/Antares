@@ -3,9 +3,11 @@
 Dark colorscheme for vim/neovim
 
 To install:
+
 	$ cp Antares/colors/antares.vim $HOME/.vim/colors
 
 In .vimrc:
+
 	colorscheme antares
 
 
