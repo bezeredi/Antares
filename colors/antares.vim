@@ -4,7 +4,8 @@
 
 " Default GUI Colours
 let s:foreground       = "bbbbbb"
-let s:background       = "151515"
+"let s:background       = "151515"
+let s:background       = ""
 let s:selection        = "505050"
 let s:line             = "151515"
 let s:activeline       = "252525"
@@ -32,7 +33,8 @@ let s:cursor_bg        = "555555"
 
 " Console 256 Colours
 if !has("gui_running")
-	let s:background  = "151515"
+"	let s:background  = "151515"
+	let s:background  = ""
 	let s:window      = "151515"
 	let s:line        = "151515"
 	let s:selection   = "505050"
